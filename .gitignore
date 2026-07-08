@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.output/
+.vinxi/
+.tanstack/
+.env
+.env.local
+
+# Runtime data (SQLite, audio, voices)
+data/
+
+# Python
+worker/.venv/
+worker/__pycache__/
+worker/**/__pycache__/
+worker/**/*.egg-info/
+worker/.pytest_cache/
+*.pyc
+
+# OS / editor
+.DS_Store
+*.log
